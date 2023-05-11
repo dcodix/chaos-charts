@@ -24,6 +24,9 @@ experiments:
   - name: node-drain
     CSV: node-drain.chartserviceversion.yaml
     desc: "node-drain"
+  - name: dcodix-test
+    CSV: dcodix-test.chartserviceversion.yaml
+    desc: "dcodix-test"
   - name: pod-network-corruption
     CSV: pod-network-corruption.chartserviceversion.yaml
     desc: "pod-network-corruption"

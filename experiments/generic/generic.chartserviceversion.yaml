@@ -27,6 +27,8 @@ spec:
       description: ""
     - name: node-drain
       description: ""
+    - name: dcodix-test
+      description: ""
     - name: node-cpu-hog
       description: ""
     - name: disk-fill
