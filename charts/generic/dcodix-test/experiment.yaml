@@ -51,13 +51,12 @@ spec:
       - apiGroups: [""]
         resources: ["nodes"]
         verbs: ["get","list","patch"]
-    image: "litmuschaos/go-runner:latest"
+    image: "ubuntu:latest"
     imagePullPolicy: Always
     args:
-    - -c
-    - ./experiments -name dcodix-test
+    - "99"
     command:
-    - /bin/bash
+    - sleep
     env:
     
     - name: TARGET_NODE
