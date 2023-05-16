@@ -1,0 +1,29 @@
+apiVersion: litmuchaos.io/v1alpha1
+kind: ChartServiceVersion
+metadata:
+  name: asapp 
+  version: 0.1.0
+  annotations:
+    categories: asapp
+spec:
+  displayName:  chaos
+  categoryDescription: >
+    it will failover elasticcache, waits for the chaos duration and reverts the chaos 
+  experiments:
+  - infra_elasticcache_failover
+  keywords: 
+    - "elasticcache" 
+    - "asapp" 
+  maintainers: 
+    - name:dcodix 
+      email:dcodix@asapp.com 
+  minKubeVersion: 1.23.0 
+  provider: 
+    name: ChaosNative
+  links: 
+    - name:Documentation 
+      url:https://docs.litmuschaos.io/docs/getstarted/  
+  icon:
+    - url: 
+      mediatype: ""
+  chaosexpcrdlink: https://raw.githubusercontent.com/litmuschaos/chaos-charts/master/charts/asapp/experiments.yaml
