@@ -37,4 +37,4 @@ spec:
             
             # ENABLE_AUTOFAILOVER
             - name: ENABLE_AUTOFAILOVER
-              value: True
+              value: "True"
