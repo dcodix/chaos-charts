@@ -1,12 +1,12 @@
 apiVersion: litmuchaos.io/v1alpha1
 kind: ChartServiceVersion
 metadata:
-  name: infra_elasticcache_failover 
+  name: infra-elasticcache-failover 
   version: 0.1.0
   annotations:
     categories: asapp
 spec:
-  displayName: infra_elasticcache_failover 
+  displayName: infra-elasticcache-failover 
   categoryDescription: >
     it will failover elasticcache, waits for the chaos duration and reverts the chaos 
   keywords: 
