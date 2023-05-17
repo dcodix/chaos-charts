@@ -26,6 +26,10 @@ spec:
             # set chaos interval (in sec) as desired
             - name: CHAOS_INTERVAL
               value: '10'
+
+            # RAMP_TIME
+            - name: RAMP_TIME
+              value: '10'
               
             # ELASTICCACHE_CLUSTER_NAME
             - name: ELASTICCACHE_CLUSTER_NAME

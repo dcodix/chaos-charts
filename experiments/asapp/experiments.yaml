@@ -42,8 +42,7 @@ spec:
     imagePullPolicy: Always
     args:
     - -c
-    - python3 -u experiment
-    - -name=infra-elasticcache-failover
+    - python3 -u experiment -name=infra-elasticcache-failover
     command:
     - /bin/bash
     env:
