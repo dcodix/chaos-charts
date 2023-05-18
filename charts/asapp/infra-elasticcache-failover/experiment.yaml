@@ -48,28 +48,28 @@ spec:
     env:
 
     - name: TOTAL_CHAOS_DURATION
-      value: '' 
+      value: '300' 
 
     - name: CHAOS_INTERVAL
-      value: ''
+      value: '100'
 
     - name: LIB
-      value: ''
+      value: 'litmus'
 
     - name: RAMP_TIME
-      value: ''
+      value: '60'
 
     - name: ELASTICCACHE_CLUSTER_NAME
       value: ''
     
     - name: MIN_NODES
-      value: ''
+      value: '2'
     
     - name: ENABLE_AUTOFAILOVER
-      value: ''
+      value: 'True'
 
     - name: AWS_DEFAULT_REGION
-      value: ''
+      value: 'us-east-1'
       
     labels:
       name: ec-failover
