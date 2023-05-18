@@ -1,5 +1,5 @@
 packageName: asapp
 experiments:
-  - name: infra-elasticcache-failover
+  - name: infra-ec-failover
     CSV: infra-elasticcache-failover.chartserviceversion.yaml
     desc: "infra-elasticcache-failover"
