@@ -4,9 +4,9 @@ description:
     it will failover elasticcache, waits for the chaos duration and reverts the chaos
 kind: ChaosExperiment
 metadata:
-  name: infra-elasticcache-failover
+  name: infra-ec-failover
   labels:
-    name: infra-elasticcache-failover
+    name: infra-ec-failover
     app.kubernetes.io/part-of: litmus
     app.kubernetes.io/component: chaosexperiment
     app.kubernetes.io/version: latest
@@ -69,7 +69,7 @@ spec:
       value: ''
       
     labels:
-      name: infra-elasticcache-failover
+      name: infra-ec-failover
       app.kubernetes.io/part-of: litmus
       app.kubernetes.io/component: experiment-job
       app.kubernetes.io/version: latest 
