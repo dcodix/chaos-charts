@@ -16,7 +16,7 @@ spec:
   # It can be delete/retain
   jobCleanUpPolicy: 'delete'
   experiments:
-    - name: infra-elasticcache-failover
+    - name: infra-ec-failover
       spec:
         components:
           env:

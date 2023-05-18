@@ -10,7 +10,7 @@ spec:
   categoryDescription: >
     it will failover elasticcache, waits for the chaos duration and reverts the chaos 
   experiments:
-  - infra-elasticcache-failover
+  - infra-ec-failover
   keywords: 
     - "elasticcache" 
     - "asapp" 

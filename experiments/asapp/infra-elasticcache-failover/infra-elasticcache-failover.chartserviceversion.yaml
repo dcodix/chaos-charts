@@ -1,7 +1,7 @@
 apiVersion: litmuchaos.io/v1alpha1
 kind: ChartServiceVersion
 metadata:
-  name: infra-elasticcache-failover 
+  name: infra-ec-failover 
   version: 0.1.0
   annotations:
     categories: asapp
