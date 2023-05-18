@@ -67,6 +67,9 @@ spec:
     
     - name: ENABLE_AUTOFAILOVER
       value: ''
+
+    - name: AWS_DEFAULT_REGION
+      value: ''
       
     labels:
       name: ec-failover

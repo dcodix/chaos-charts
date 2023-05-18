@@ -8,6 +8,7 @@ spec:
     appns: 'default'
     applabel: 'app=nginx'
     appkind: 'deployment'
+    somthing: 'yeah'
   # It can be active/stop
   engineState: 'active'
   #ex. values: ns1:name=percona,ns2:run=nginx
@@ -43,3 +44,7 @@ spec:
             # ENABLE_AUTOFAILOVER
             - name: ENABLE_AUTOFAILOVER
               value: "True"
+
+            # AWS_DEFAULT_REGION
+            - name: AWS_DEFAULT_REGION
+              value: "us-east-1"
