@@ -2,6 +2,7 @@ apiVersion: litmuschaos.io/v1alpha1
 kind: ChaosEngine
 metadata:
   name: nginx-chaos
+  namespace: litmus
 spec:
   appinfo:
     appns: 'default'
